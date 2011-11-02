@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2011.10.17)  20 OCT 2011 20:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.17)  27 OCT 2011 07:50
 entering extended mode
  %&-line parsing enabled.
 **paper1.tex
@@ -42,7 +42,7 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode not detected.
+Package ifpdf Info: pdfTeX in pdf mode detected.
 )
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
@@ -60,28 +60,28 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg)) (./paper1.aux)
 \openout1 = `paper1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 *geometry auto-detecting driver*
-*geometry detected driver: dvips*
+*geometry detected driver: pdftex*
 -------------------- Geometry parameters
 paper: letterpaper
 landscape: --
 twocolumn: --
 twoside: --
 asymmetric: --
-h-parts: 72.26999pt, 469.75502pt, 72.26999pt
-v-parts: 72.26999pt, 650.43001pt, 72.26999pt
+h-parts: 83.11005pt, 448.0749pt, 83.11005pt
+v-parts: 83.11005pt, 628.7499pt, 83.11005pt
 hmarginratio: --
 vmarginratio: --
 lines: --
@@ -91,15 +91,15 @@ truedimen: --
 includehead: --
 includefoot: --
 includemp: --
-driver: dvips
+driver: pdftex
 -------------------- Page layout dimensions and switches
 \paperwidth  614.295pt
 \paperheight 794.96999pt
-\textwidth  469.75502pt
-\textheight 650.43001pt
-\oddsidemargin  0.0pt
-\evensidemargin 0.0pt
-\topmargin  -37.0pt
+\textwidth  448.0749pt
+\textheight 628.7499pt
+\oddsidemargin  10.84006pt
+\evensidemargin 10.84006pt
+\topmargin  -26.15994pt
 \headheight 12.0pt
 \headsep    25.0pt
 \footskip   30.0pt
@@ -119,14 +119,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 13.
 [1
 
-] (./paper1.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6]
+[7]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [8] (./paper1.aux) ) 
 Here is how much of TeX's memory you used:
- 668 strings out of 493849
- 9193 string characters out of 1152845
- 58989 words of memory out of 3000000
- 4004 multiletter control sequences out of 15000+50000
- 5756 words of font info for 21 fonts, out of 3000000 for 9000
+ 678 strings out of 493848
+ 9335 string characters out of 1152822
+ 61999 words of memory out of 3000000
+ 4013 multiletter control sequences out of 15000+50000
+ 6063 words of font info for 22 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 24i,6n,32p,158b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,6n,32p,174b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on paper1.pdf (8 pages, 68396 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on paper1.dvi (1 page, 920 bytes).
